@@ -1,0 +1,17 @@
+{
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "products": {
+    "tshirt": "T-Shirt",
+    "flashlight": "Flashlight",
+    "backpack": "Backpack"
+  },
+
+  "customer": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "zipCode": "12345"
+  }
+}
