@@ -1,5 +1,5 @@
-export const login = async (page, credentials) => {
-    await page.fill("#user-name", credentials.username);
-    await page.fill("#password", credentials.password);
+export const login = async (page, loginInfo) => {
+    await page.fill("#user-name", loginInfo.username);
+    await page.fill("#password", loginInfo.password);
     await page.click("#login-button");
 };

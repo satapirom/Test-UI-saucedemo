@@ -1,9 +1,0 @@
-{
-  "timestamp": "2025-02-19T14:36:55.033Z",
-  "logs": [
-    "2025-02-19T14:36:54.338Z: Starting test - Navigating to SauceDemo",
-    "2025-02-19T14:36:54.999Z: Successfully logged in",
-    "2025-02-19T14:36:55.033Z: Error: locator.click: Error: strict mode violation: locator('.inventory_item').filter({ hasText: 'T-Shirt' }).locator('button').filter({ hasText: 'Add to cart' }) resolved to 2 elements:\n    1) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    2) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test\\\\.allthethings\\\\(\\\\)-t-shirt-\\\\(red\\\\)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('.inventory_item').filter({ hasText: 'T-Shirt' }).locator('button').filter({ hasText: 'Add to cart' })\u001b[22m\n"
-  ],
-  "status": "completed"
-}
